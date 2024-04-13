@@ -11,6 +11,7 @@
 Get started, your have to execute this 2 command in command-lines.
 ```angular2html
  npm run dev
+
  php artisan serve
 ```
 
@@ -41,8 +42,8 @@ Before to get started , you have to read this requirement !
  php artisan make:controller DemoController
 ```
 
-- ### Upgrate Migration
-validate migrations ,and upgrade into database
+- ## Mise à jour des migrations
+valider les migrations vers la base de données
 ```angular2html
  php artisan migrate
 ```
@@ -64,7 +65,6 @@ php artisan migrate:rollback --step=3
 
 
 ```
-
 
 - ### LIST ROUTE
 ```angular2html
